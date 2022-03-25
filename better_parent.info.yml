@@ -1,0 +1,8 @@
+name: Better Parent
+type: module
+description: Provides better ui interface to select node parent
+core_version_requirement: ^8 || ^9 || ^10
+# version: 9.x-1.0
+# Information added by Drupal.org packaging script on 2022-08-21
+project: 'better_parent'
+datestamp: 1661076823
