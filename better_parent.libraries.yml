@@ -1,0 +1,8 @@
+better_parent:
+  js:
+    js/better_parent.menu.js: {}
+  css:
+    component:
+      css/better_parent.css: {}
+  dependencies:
+    - core/jquery
