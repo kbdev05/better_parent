@@ -1,0 +1,58 @@
+/**
+ * @file
+ * Theme styles for the menu parent functionality.
+ */
+#better_parent_item,
+#better_parent_item ul,
+#better_parent_item li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-image: none;
+}
+
+#better_parent_item {
+  width: 100%;
+  height: 200px;
+  overflow: auto;
+}
+
+#better_parent_item .hasChildren ul li {
+  font-weight: normal;
+}
+
+#better_parent_item_toggle,
+#better_parent_item a {
+  cursor: pointer;
+}
+
+#better_parent_item_toggle {
+  font-size: 0.8em;
+  margin-left: 0.5em;
+  outline: none;
+}
+
+#better_parent_item ul {
+  margin-left: 1.1em;
+}
+
+#better_parent_item li {
+  margin: 0.1em 0;
+}
+
+#better_parent_item li a {
+  padding-left: 20px;
+  background: url("../images/menu-leaf.gif") no-repeat left 4px;
+}
+
+#better_parent_item li.hasChildren > a {
+  background: url("../images/menu-collapsed.gif") no-repeat left 4px;
+}
+
+#better_parent_item li.opened.hasChildren > a {
+  background: url("../images/menu-expanded.gif") no-repeat left 4px;
+}
+
+#better_parent_item .selected {
+  font-weight: bold;
+}
